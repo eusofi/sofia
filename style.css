@@ -17,6 +17,16 @@ body {
   justify-content: center;
   margin: 0 auto;
   margin-top: 57px;
+  animation: fade-in 3s, zoom-in 1s;
+}
+
+@keyframes fade-in {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
 }
 
 .name1 {
@@ -28,6 +38,16 @@ body {
   margin: 0 auto;
   margin-top: 1px;
   font-size: 28px;
+  animation: fade-in 3s, zoom-in 1s;
+}
+
+@keyframes fade-in {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
 }
 
 .p1 {
@@ -39,6 +59,16 @@ body {
   justify-content: center;
   margin: 0 auto;
   margin-top: 6px;
+  animation: fade-in 3s, zoom-in 1s;
+}
+
+@keyframes fade-in {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
 }
 
 .button-container {
@@ -60,6 +90,16 @@ body {
   font-size: 14px;
   border: 1px solid white;
   cursor: pointer;
+  animation: fade-in 3s, zoom-in 1s;
+}
+
+@keyframes fade-in {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
 }
 
 .link-p {

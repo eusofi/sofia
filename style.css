@@ -1,5 +1,5 @@
 body {
-  background: black;
+  background-image: url(images/fundo.jpg);
   background-size: cover;
   fill-opacity: inherit;
 }
@@ -54,7 +54,10 @@ body {
   font-family: sans-serif;
   font-weight: bold;
   color: white;
-  background: black;
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  padding: 10px;
   display: block;
   justify-content: center;
   margin: 0 auto;

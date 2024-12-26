@@ -1,7 +1,7 @@
 body {
   background-image: url(images/fundo.jpg);
   background-size: cover;
-  fill-opacity: inherit;
+  background-position: center;
 }
 
 .img-container {
